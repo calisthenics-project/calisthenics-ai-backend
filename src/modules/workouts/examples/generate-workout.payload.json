@@ -1,0 +1,9 @@
+{
+  "goal": "strength",
+  "level": "beginner",
+  "daysPerWeek": 3,
+  "sessionDurationMinutes": 45,
+  "availableEquipment": ["pull-up bar", "parallel bars"],
+  "injuries": ["shoulder discomfort"],
+  "focusAreas": ["upper body", "core"]
+}
