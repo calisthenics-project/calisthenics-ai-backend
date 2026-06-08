@@ -4,7 +4,7 @@ import { WorkoutPlan } from '../schemas/workout-plan.schema';
 
 @Injectable()
 export class WorkoutOutputValidatorService {
-  validate(output: WorkoutPlan): WorkoutPlan {
+  validate(output: unknown): WorkoutPlan {
     const parsed = workoutPlanSchema.safeParse(output);
 
     if (!parsed.success) {
